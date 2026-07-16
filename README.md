@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portal InvoiCy Uruguay
 
 Portal de documentação técnica de integração com o InvoiCy Uruguay utilizando o framework MKDOCS.
@@ -66,3 +67,6 @@ Como subir para produção
 
   - Automaticamente o mkdocs irá subir essa branch "gh-pages" para o repositório do github e habilitar a página.
   - Em instantes estará atualizado em https://migrate-company.github.io/PortalInvoiCyUruguay/
+=======
+# Portal InvoiCy Chile
+>>>>>>> 6da6ca3fc4151d7e99d3111b26b62edae0fb4489
