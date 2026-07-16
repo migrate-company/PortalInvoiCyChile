@@ -8,14 +8,14 @@ En la documentación disponible se encuentran detallados los servicios y las dir
 
 ## API Emisión
 
-- **Finalidad:** Enviar Facturas Electrónicas (FE) para procesamiento por InvoiCy.
+- **Finalidad:** Enviar  Documentos Tributarios Electrónicos (DTE) para procesamiento por InvoiCy.
 - **Endpoints:**
 - Pruebas URL: 
 - Producción URL: 
 
 ## API Documentos
 
-- **Finalidad:** Consultar Facturas Electrónicas emitidas.
+- **Finalidad:** Consultar  Documentos Tributarios Electrónicos emitidos.
 - **Endpoints:**
 - Pruebas URL: 
 - Producción URL: 
