@@ -10,7 +10,7 @@ nav:
     - InvoiCy Digitación en Pantalla: Digitacion/Digitacion.md
   - Integración:
     - API REST: Integracion/Integracion_API_REST.md
-  - Downloads: Downloads/downloads.md
+  - Downloads: Downloads/Downloads.md
   - InvoiCy Core:
     - OCR Internacional: InvoiCy_Core/InvoiCy_OCR_Internacional.md
   - Release Notes: Revisiones/Release Notes.md
