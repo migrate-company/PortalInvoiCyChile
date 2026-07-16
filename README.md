@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-# Portal InvoiCy Uruguay
+# Portal InvoiCy Chile
 
-Portal de documentação técnica de integração com o InvoiCy Uruguay utilizando o framework MKDOCS.
+Portal de documentação técnica de integração com o InvoiCy Chile utilizando o framework MKDOCS.
 
 Como atualizar os artigos
 
@@ -24,7 +23,7 @@ Como atualizar os artigos
     Um contorno é instalar via PIP:
 
     ```shell
-    pip install requirements.txt
+    pip install -r requirements.txt
     ```
 
 - Todos os artigos devem ser cridos em arquivos .md dentro do diretório "docs".
@@ -38,7 +37,7 @@ Como testar aplicação local
     mkdocs serve
     ```
 
-- Vai ser disponibilizado localmente um serviço em http://127.0.0.1:8000/PortalInvoiCyUruguay/
+- Vai ser disponibilizado localmente um serviço em http://127.0.0.1:8000/PortalInvoiCyChile/
 - Será criado um diretório "site" com os arquivos estáticos. Este diretório está para ser ignorado no .gitignore, pois não é necessário depois.
 - Por vezes, o mkdocs serve não copia novos arquivos para o diretório site, então é necessário rodar o comando abaixo para forçar a recriação.
 
@@ -57,7 +56,7 @@ Como subir para produção
     ```
 
 - Existe uma action CI/CD configurada para atualizar automaticamente quando um commit é subido para a branch master.
-- Em instantes estará atualizado em https://migrate-company.github.io/PortalInvoiCyUruguay/
+- Em instantes estará atualizado em https://migrate-company.github.io/PortalInvoiCyChile/
 - Caso ocorra algum problema no CI/CD, pode ser necessário executar manualmente.
   - Execute o comando através da branch master para gerar uma branch "gh-pages":
 
@@ -66,7 +65,4 @@ Como subir para produção
     ```
 
   - Automaticamente o mkdocs irá subir essa branch "gh-pages" para o repositório do github e habilitar a página.
-  - Em instantes estará atualizado em https://migrate-company.github.io/PortalInvoiCyUruguay/
-=======
-# Portal InvoiCy Chile
->>>>>>> 6da6ca3fc4151d7e99d3111b26b62edae0fb4489
+  - Em instantes estará atualizado em https://migrate-company.github.io/PortalInvoiCyChile/
