@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="card-img-top mx-auto" width="115.133" height="82.522" viewBox="0 0 115.133 82.522">
+<defs>
+	<style>
+		.a {
+			fill: #ff804c;
+		}
+
+		.b {
+			fill: #4f5c70;
+		}
+	</style>
+</defs>
+<rect class="a" width="3.839" height="3.839"></rect>
+<path class="b" d="M138.6,55.739,121.327,28.875A1.916,1.916,0,0,0,119.713,28H98.6a1.916,1.916,0,0,0-1.916,1.916V77.882A1.916,1.916,0,0,0,98.6,79.8h7.678V75.966h-5.754V31.831h18.1l16.449,25.506V75.966h-9.6V79.8h11.516a1.916,1.916,0,0,0,1.916-1.923V56.764a1.938,1.938,0,0,0-.3-1.026Z" transform="translate(-23.766 -6.883)"></path>
+<path class="b" d="M110.751,55.441V42h15.355V38.17H108.836a1.916,1.916,0,0,0-1.916,1.916V57.356a1.908,1.908,0,0,0,1.916,1.916h28.787V55.441Z" transform="translate(-26.283 -9.383)"></path>
+<path class="b" d="M74.837,10.18H1.916A1.916,1.916,0,0,0,0,12.1V73.5a1.923,1.923,0,0,0,1.916,1.923H17.271V71.585H3.839V14.019H72.922V71.585H36.457v3.839h38.38A1.923,1.923,0,0,0,76.761,73.5V12.1a1.923,1.923,0,0,0-1.923-1.916Z" transform="translate(0 -2.502)"></path>
+<rect class="b" width="11.516" height="3.839" transform="translate(1.916 61.405)"></rect>
+<rect class="b" width="32.618" height="3.839" transform="translate(40.296 61.405)"></rect>
+<rect class="b" width="7.678" height="3.839" transform="translate(105.54 61.405)"></rect>
+<rect class="b" width="67.16" height="3.839" transform="translate(7.678 15.355)"></rect>
+<rect class="b" width="3.839" height="3.839" transform="translate(24.948 69.083)"></rect>
+<rect class="b" width="3.839" height="3.839" transform="translate(90.192 69.083)"></rect>
+<rect class="a" width="26.864" height="3.839" transform="translate(7.678)"></rect>
+<path class="a" d="M31.866,78.88A11.516,11.516,0,1,0,43.383,90.389,11.516,11.516,0,0,0,31.866,78.88Zm0,19.186a7.678,7.678,0,1,1,7.678-7.678,7.678,7.678,0,0,1-7.678,7.678Z" transform="translate(-5.002 -19.39)"></path>
+<path class="a" d="M118.376,78.88a11.516,11.516,0,1,0,11.516,11.509A11.516,11.516,0,0,0,118.376,78.88Zm0,19.186a7.678,7.678,0,1,1,7.678-7.678,7.678,7.678,0,0,1-7.678,7.678Z" transform="translate(-26.268 -19.39)"></path>
+</svg>

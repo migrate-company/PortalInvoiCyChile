@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="card-img-top mx-auto" width="102.306" height="95.289" viewBox="0 0 102.306 95.289">
+								<defs>
+									<style>
+										.a {
+											fill: #ff804c;
+										}
+
+										.b {
+											fill: #4f5c70;
+										}
+									</style>
+								</defs>
+								<g transform="translate(0 0)">
+									<rect class="a" width="25.694" height="3.178" transform="translate(64.597 46.055)"></rect>
+									<rect class="a" width="25.694" height="3.178" transform="translate(64.597 30.173)"></rect>
+									<path class="b" d="M115.465,17.468a1.592,1.592,0,0,0-.455-1.123L99.135.462A1.585,1.585,0,0,0,98.011,0H50.378a4.763,4.763,0,0,0-4.763,4.763V31.282h3.171V4.763a1.593,1.593,0,0,1,1.578-1.585H96.419V14.3a4.763,4.763,0,0,0,4.763,4.763H112.3V90.526a1.585,1.585,0,0,1-1.585,1.593H50.363a1.593,1.593,0,0,1-1.593-1.593V65.116H45.6V90.526a4.763,4.763,0,0,0,4.763,4.763h60.353a4.763,4.763,0,0,0,4.763-4.763V17.468Zm-14.283-1.585A1.585,1.585,0,0,1,99.6,14.3V5.425l10.458,10.458Z" transform="translate(-13.173 0)"></path>
+									<path class="a" d="M16.669,63.293H50.93a1.77,1.77,0,0,0,1.678-1.237l6.974-23.412a1.77,1.77,0,0,0-1.692-2.275H12.908l-2.375-7.984a1.777,1.777,0,0,0-1.7-1.265H1.767a1.777,1.777,0,0,0,0,3.555H7.519l2.367,7.948V38.7l6.292,21.122a6.9,6.9,0,0,0,.469,13.792H18.4a6.32,6.32,0,0,0,12.143,0h9.385a6.32,6.32,0,0,0,12.143,0h2.275a1.777,1.777,0,0,0,0-3.555H52.067a6.32,6.32,0,0,0-12.143,0H30.568a6.32,6.32,0,0,0-12.143,0H16.669a3.37,3.37,0,1,1,0-6.733ZM42.6,39.9H55.53L53.1,48.079H42.6Zm0,11.709h9.449l-2.439,8.169H42.6ZM29.516,39.9H39.1v8.176H29.516Zm0,11.709H39.1v8.169H29.516Zm-3.555,8.169H19.9l-2.453-8.169h8.531ZM13.939,39.874H25.982v8.2H16.4ZM46,69.024a2.01,2.01,0,1,0,.021.014Zm-21.528,0a2.007,2.007,0,1,0,.021.014Z" transform="translate(0.01 -7.839)"></path>
+									<path class="b" d="M90.45,82.12v9.242h9.242V82.12ZM97.5,89.144H92.618V84.288H97.5Z" transform="translate(-26.137 -23.737)"></path>
+									<rect class="b" width="2.168" height="2.168" transform="translate(67.839 61.91)"></rect>
+									<path class="b" d="M116.51,82.12v9.242h9.242V82.12Zm7.046,7.024h-4.877V84.288h4.877Z" transform="translate(-33.67 -23.737)"></path>
+									<rect class="b" width="2.168" height="2.168" transform="translate(86.366 61.91)"></rect>
+									<path class="b" d="M90.45,108.18v9.242h9.242V108.18Zm7.046,7.046H92.618v-4.877H97.5Z" transform="translate(-26.137 -31.269)"></path>
+									<rect class="b" width="2.168" height="2.168" transform="translate(67.839 80.437)"></rect>
+									<rect class="b" width="2.168" height="2.168" transform="translate(66.481 69.055)"></rect>
+									<path class="b" d="M98.718,102.348V100.18H96.55v2.168h2.112v2.168h2.168v-2.168Z" transform="translate(-27.9 -28.957)"></path>
+									<rect class="b" width="2.168" height="2.168" transform="translate(79.484 62.557)"></rect>
+									<rect class="b" width="2.168" height="4.173" transform="translate(75.148 60.552)"></rect>
+									<rect class="b" width="2.168" height="2.168" transform="translate(77.316 58.383)"></rect>
+									<path class="b" d="M107.858,91.04v2.168H105.69V95.37h4.337V91.04Z" transform="translate(-30.542 -26.315)"></path>
+									<path class="b" d="M110.027,106.571V104.46h-2.168v-4.28H105.69v4.337h2.168v2.112h2.168v2.112h4.33v-2.168Z" transform="translate(-30.542 -28.957)"></path>
+									<rect class="b" width="2.168" height="4.337" transform="translate(79.484 69.055)"></rect>
+									<path class="b" d="M123.946,99.243V97.11h-3.953v2.168H117.86v2.133h2.168v2.133H126.1v-4.33Zm0,2.133h-3.9V99.243h3.9Z" transform="translate(-34.06 -28.069)"></path>
+									<rect class="b" width="2.168" height="4.337" transform="translate(89.886 77.615)"></rect>
+									<rect class="b" width="2.168" height="2.168" transform="translate(81.653 73.392)"></rect>
+									<rect class="b" width="2.168" height="2.168" transform="translate(83.814 79.783)"></rect>
+									<rect class="b" width="2.168" height="2.168" transform="translate(85.983 77.615)"></rect>
+									<path class="b" d="M120.93,115.27v4.173H123.1v-2h1.735V115.27Z" transform="translate(-34.947 -33.319)"></path>
+									<rect class="b" width="2.168" height="4.116" transform="translate(75.148 77.672)"></rect>
+									<path class="b" d="M113.077,117.208V115.04H108.74v4.337h2.168v-2.168h2.112v2.168h2.168v-2.168Z" transform="translate(-31.424 -33.252)"></path>
+									<rect class="b" width="4.337" height="2.168" transform="translate(70.818 69.055)"></rect>
+									<rect class="b" width="2.168" height="4.337" transform="translate(64.313 71.223)"></rect>
+								</g>
+							</svg>

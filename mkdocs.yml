@@ -1,0 +1,160 @@
+site_name: Portal de Integración – InvoiCy Chile
+site_url: https://migrate-company.github.io/PortalInvoiCyChile
+repo_url: https://github.com/migrate-company/PortalInvoiCyChile/tree/main/docs/Ejemplos/
+repo_name: Ejemplos de integración
+copyright: "Todos los derechos reservados"
+
+nav:
+  - Início: index.md
+  - Digitación:
+    - InvoiCy Digitación en Pantalla: Digitacion/Digitacion.md
+  - Integración:
+    - API REST: Integracion/Integracion_API_REST.md
+  - Downloads: Downloads/downloads.md
+  - InvoiCy Core:
+    - OCR Internacional: InvoiCy_Core/InvoiCy_OCR_Internacional.md
+  - Release Notes: Revisiones/Release Notes.md
+  - FAQ: FAQ.md
+
+#Fim definição de MENU
+
+plugins:
+  - search:
+      lang: es
+  - git-authors:
+      enabled: true
+      show_contribution: true
+      show_email_address: true
+      add_co_authors: true
+      sort_authors_by: contribution
+      #authorship_threshold_percent: 10
+      enabled_on_serve: true
+      exclude:
+        - index.md
+        - ES\Invoicy\news\index.md
+  - glightbox:
+      touchNavigation: true
+      effect: zoom
+      zoomable: true
+  - git-revision-date-localized:
+      enabled: true
+      locale: es
+      type: date
+      exclude:
+        - index.md
+        - ES\Invoicy\news\index.md
+        # - about.md
+
+  #- i18n:
+  # docs_structure: suffix
+  # fallback_to_default: true
+  # reconfigure_material: true
+  # reconfigure_search: true
+  # languages:
+
+  #   - locale: es
+  #     name: Español
+  #     build: true
+  #     copyright: "Todos los derechos reservados"
+  #     site_name: "InvoiCy Uruguay"
+  #     nav_translations:
+  #       Planos: Planes
+  #       Inicio: Comenzar
+
+  #   - locale: pt
+  #     name: Português
+  #     build: true
+  #     default: true
+  #     copyright: "Todos os direitos reservados"
+  #     site_name: "InvoiCy Uruguai"
+
+  #   - locale: en
+  #     name: English
+  #     build: true
+  #     copyright: "All rights reserved"
+  #     site_name: "InoviCy Uruguay"
+  #     nav_translations:
+  #       Planos: Plans
+  #       Inicio: Geting started
+
+  #   - locale: "null"
+  #     name: Help translating
+  #     build: false
+  #     fixed_link: https://github.com/migrate-company/bms-core-doc/issues
+
+use_directory_urls: false
+
+theme:
+  name: material
+  font: false
+  language: es
+  direction: ltr
+  logo: assets/img/logo-invoicy-for-devs.svg
+  custom_dir: overrides
+  favicon: assets/img/favicon.png
+  palette:
+    primary: custom
+  icon:
+    annotation: material/plus-circle
+    repo: fontawesome/brands/git-alt
+  features:
+    - navigation.indexes
+    - navigation.top
+    - content.code.copy
+    - content.code.annotate
+
+extra:
+  old_site_url: https://desenvolvedores-antigo.migrate.info/
+  footer_logo: ./assets/img/logo_azul.svg
+  country_flags:
+    br: ./assets/img/flags/br.svg
+    ar: ./assets/img/flags/ar.svg
+    py: ./assets/img/flags/py.svg
+    uy: ./assets/img/flags/uy.svg
+
+extra_css:
+  - assets/stylesheets/components.css
+  - assets/stylesheets/utilities.css
+  - assets/stylesheets/extra.css
+  - assets/stylesheets/breakpoints.css
+  - assets/stylesheets/mkdocs-plugin/neoteroi.css
+  - assets/stylesheets/annotations.css
+
+extra_javascript:
+  - assets/javascripts/annotations.js
+  - assets/javascripts/links_nova_guia.js
+  - assets/javascripts/flexsearch.bundle.js
+  - assets/javascripts/toggle-footer-position.js
+  - assets/javascripts/return-to-page.js
+  - assets/javascripts/search-dedicated.js
+
+watch:
+  - overrides
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      toc_depth: 2
+  - admonition
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true
+      # css_class: 'highlight'
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - attr_list
+  - md_in_html
+  - pymdownx.keys
+  - neoteroi.timeline

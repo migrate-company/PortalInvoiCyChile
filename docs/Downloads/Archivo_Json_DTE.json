@@ -1,0 +1,34 @@
+{
+  "DTE": {
+    "tipoDTE": 33,
+    "folio": 12345,
+    "fechaEmision": "2026-07-16",
+    "emisor": {
+      "rut": "76123456-7",
+      "razonSocial": "Empresa Ejemplo SpA",
+      "giro": "Servicios Informáticos",
+      "direccion": "Av. Ejemplo 123",
+      "comuna": "Santiago",
+      "ciudad": "Santiago"
+    },
+    "receptor": {
+      "rut": "76987654-3",
+      "razonSocial": "Cliente Ejemplo Ltda.",
+      "direccion": "Calle Cliente 456",
+      "comuna": "Providencia",
+      "ciudad": "Santiago"
+    },
+    "items": [
+      {
+        "descripcion": "Producto de ejemplo",
+        "cantidad": 1,
+        "precioUnitario": 10000
+      }
+    ],
+    "total": {
+      "montoNeto": 10000,
+      "iva": 1900,
+      "montoTotal": 11900
+    }
+  }
+}

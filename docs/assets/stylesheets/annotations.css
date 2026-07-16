@@ -1,0 +1,76 @@
+.code-annot-marker {
+  display: inline-block;
+  margin-left: 0.25em;
+  margin-right: 0.15em;
+  font-size: 1.35em;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--md-primary-fg, #00348f);
+  background: rgba(255,255,255,0);
+  border-radius: 50%;
+  padding: 0 0.15em;
+  vertical-align: middle;
+  user-select: none;
+}
+
+.code-annot-tip {
+  display: none;
+  max-width: 520px;
+  min-width: 160px;
+  white-space: normal;
+  word-wrap: break-word;
+  word-break: break-word;
+  box-shadow: 0 3px 9px rgba(255, 255, 255, 0.12);
+  border-radius: none !important;
+  background: var(--md-default-bg, #fff);
+  color: var(--md-default-fg, #222);
+  font-size: 0.95rem;
+  padding: 0;
+  border: 1px solid rgba(0,0,0,0.06);
+  transition: opacity 120ms ease, transform 120ms ease;
+  pointer-events: auto;
+  position: absolute;
+}
+
+.code-annot-tip-inner {
+  padding: 0.7rem;
+  line-height: 1.25;
+  font-size: small;
+  width: 300px;
+}
+
+/* estado visível */
+.code-annot-tip.visible {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* estilo quando "fixado" (pinned) */
+.code-annot-tip.pinned {
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.288);
+}
+
+/* seta */
+.code-annot-tip::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid var(--md-default-bg, #fff);
+  top: -7px;
+  left: 12px;
+  filter: drop-shadow(0 -1px 0 rgba(0,0,0,0.03));
+}
+
+.code-annot-tip a {
+  color: var(--md-primary-fg, #074B7F);
+  text-decoration: underline;
+}
+
+.code-annot-marker:focus {
+  outline: 2px solid rgba(11,102,255,0.16);
+  outline-offset: 2px;
+}

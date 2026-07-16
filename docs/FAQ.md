@@ -1,0 +1,5 @@
+# FAQ
+
+**Pregunta:**
+
+**Respuesta:**

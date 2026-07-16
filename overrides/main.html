@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block fonts %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+  rel="stylesheet">
+{% endblock %}
+
+{% block extrahead %}
+  {{ super() }}
+  <meta name="google-site-verification" content="TmWu0-Ib_S0C8PMI3lCztg7VNsIsG6i-y9FeDoEW_Lo" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M2VDGXDPKM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-M2VDGXDPKM');
+  </script>
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-T9LLMM3');
+  </script>
+  <!-- End Google Tag Manager -->
+{% endblock %}
+
+{% block content %}
+<a href="#" class="button button-link mb-5" id="back-to-previous" style="display: none;">
+  <svg width="6" height="16" viewBox="0 0 6 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M4.79167 3.83341L0.625 8.00008L4.79167 12.1667" stroke="currentColor" stroke-width="1.25"
+      stroke-linecap="round" stroke-linejoin="round" />
+  </svg>
+
+  <span>Volver a ""</span>
+</a>
+{{ super() }}
+
+{% endblock %}
