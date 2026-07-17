@@ -6,14 +6,14 @@ Esta funcionalidad permite a las empresas emitir sus documentos de forma rápida
 
 A través de la digitación en pantalla es posible realizar las principales configuraciones y operaciones necesarias para la emisión de documentos electrónicos. A continuación, se presentan los artículos relacionados con cada una de estas funcionalidades:
 
-- **[Registro de empresa](https://migrate-company.github.io/PortalInvoiCyChile/Digitacion/Registro_Empresa.md){target="_blank"}**  
+- **[Registro de empresa](https://migrate-company.github.io/PortalInvoiCyChile/Digitacion/Registro_Empresa.html){target="_blank"}**  
   Permite ingresar y configurar los datos del emisor necesarios para la emisión de documentos electrónicos.
 
-- **[Registro de ítems](https://migrate-company.github.io/PortalInvoiCyChile/Digitacion/Registro_Items.md){target="_blank"}**  
+- **[Registro de ítems](https://migrate-company.github.io/PortalInvoiCyChile/Digitacion/Registro_Items.html){target="_blank"}**  
   Permite registrar los productos o servicios que podrán ser utilizados en la emisión de documentos.
 
-- **[Registro de receptores](https://migrate-company.github.io/PortalInvoiCyChile/Digitacion/Registro_Receptores.md){target="_blank"}**   
+- **[Registro de receptores](https://migrate-company.github.io/PortalInvoiCyChile/Digitacion/Registro_Receptores.html){target="_blank"}**
   Permite registrar los clientes o receptores asociados a los documentos electrónicos.
 
-- **[Digitación y emisión de documentos](https://migrate-company.github.io/PortalInvoiCyChile/Digitacion/Digitacion_Emision.md){target="_blank"}** 
+- **[Digitación y emisión de documentos](https://migrate-company.github.io/PortalInvoiCyChile/Digitacion/Digitacion_Emision.html){target="_blank"}**
   Permite ingresar los datos del documento electrónico y realizar su emisión directamente desde la plataforma.
