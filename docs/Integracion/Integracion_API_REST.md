@@ -22,4 +22,4 @@ En la documentación disponible se encuentran detallados los servicios y las dir
 
 Antes de poder consumir los servicios de la API REST de InvoiCy, es necesario autenticarse. La autenticación garantiza que solo los usuarios autorizados puedan utilizar los servicios disponibles.
 
-Para más detalles sobre cómo realizar la autenticación y obtener los tokens de acceso necesarios, consulte la documentación completa de [Autenticación API Rest](https://migrate-company.github.io/PortalInvoiCyChile/Integracion/AutenticacionAPIRest/){target="_blank"}.
+Para más detalles sobre cómo realizar la autenticación y obtener los tokens de acceso necesarios, consulte la documentación completa de [Autenticación API Rest](https://migrate-company.github.io/PortalInvoiCyChile/Integracion/AutenticacionAPIRest.html){target="_blank"}.
