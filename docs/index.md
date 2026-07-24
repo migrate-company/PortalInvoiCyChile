@@ -43,7 +43,7 @@ glightbox: false
       <p class="card-text">Archivos y ejemplos para tu integración</p>
     </a>
 
-    <a class="card" href="Revisiones/Release%20Notes/" target="_self" style="position: relative; overflow: visible;">
+    <a class="card" href="Revisiones/Release_Notes.html" target="_self" style="position: relative; overflow: visible;">
 
 <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <rect width="36" height="36" fill="url(#pattern0_683_35)"/>
