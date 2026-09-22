@@ -32,5 +32,5 @@ En el campo donde se permite la edición, informe la clave de acceso de la empre
 Al completar esta información, se generará el JWT en el panel Encoded para ser enviado a Invoicy en la opción Generate Token de la herramienta Postman, utilizando el proyecto de ejemplo disponible en el siguiente botón:
 
 <a href="https://documenter.getpostman.com/view/9193875/UVXhpGED" target="_blank" rel="noopener">
-  <img src="https://run.pstmn.io/button.svg" alt="Run in Postman" class="skip-lightbox">
+  <img src="https://run.pstmn.io/button.svg" alt="Run in Postman" class="off-glb">
 </a>
