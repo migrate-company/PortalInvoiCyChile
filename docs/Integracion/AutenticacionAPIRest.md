@@ -29,6 +29,8 @@ La generación de fecha / hora en la timestamp se puede realizar a través del p
 
 En el campo donde se permite la edición, informe la clave de acceso de la empresa. La clave de acceso es la clave privada proporcionada por InvoiCy para cada empresa registrada, disponible a través de la pantalla de datos de la sucursal.
 
-Al completar esta información, se generará el JWT en el panel Encoded para ser enviado a Invoicy en la opción Generate Token en la herramienta Postman, usando el proyecto de ejemplo disponible en el siguiente enlace:
+Al completar esta información, se generará el JWT en el panel Encoded para ser enviado a Invoicy en la opción Generate Token de la herramienta Postman, utilizando el proyecto de ejemplo disponible en el siguiente botón:
 
-- [Run in Postman](https://documenter.getpostman.com/view/9193875/UVXhpGED){target="_blank"}
+<a href="https://documenter.getpostman.com/view/9193875/UVXhpGED" target="_blank">
+  <img src="https://run.pstmn.io/button.svg" alt="Run in Postman">
+</a>
