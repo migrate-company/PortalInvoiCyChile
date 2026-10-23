@@ -112,6 +112,7 @@ extra:
     py: ./assets/img/flags/py.svg
     uy: ./assets/img/flags/uy.svg
     cl: ./assets/img/flags/cl.svg
+  em_desenvolvimento: true # true: mostra só o aviso "InvoiCy Chile en desarrollo"; false: portal completo
 
 extra_css:
   - assets/stylesheets/components.css
