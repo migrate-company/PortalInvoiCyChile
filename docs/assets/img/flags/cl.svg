@@ -1,0 +1,13 @@
+<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="cl-circulo">
+      <circle cx="14" cy="14" r="13.125"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#cl-circulo)">
+    <rect x="0" y="0" width="28" height="14" fill="#F9F9F9"/>
+    <rect x="0" y="14" width="28" height="14" fill="#ED4C5C"/>
+    <rect x="0" y="0" width="14" height="14" fill="#428BC1"/>
+    <polygon points="8,5.2 8.647,7.11 10.663,7.135 9.046,8.34 9.646,10.265 8,9.1 6.354,10.265 6.954,8.34 5.337,7.135 7.353,7.11" fill="#F9F9F9"/>
+  </g>
+</svg>

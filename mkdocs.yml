@@ -111,6 +111,7 @@ extra:
     ar: ./assets/img/flags/ar.svg
     py: ./assets/img/flags/py.svg
     uy: ./assets/img/flags/uy.svg
+    cl: ./assets/img/flags/cl.svg
 
 extra_css:
   - assets/stylesheets/components.css
